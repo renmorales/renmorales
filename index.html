@@ -69,8 +69,7 @@
                             <div id="corner-tr" class="corner"></div>
                             <h5 id="hello">Hello there!</h5>
                             <h2>I'm Renel Morales</h2>
-                            <p id="introduction">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel dui
-                                neque. Phasellus imperdiet.</p>
+                            <p id="introduction">A Computer Science graduate who likes Software Development and AI.</p>
                             <div id="corner-bl" class="corner"></div>
                             <div id="corner-br" class="corner"></div>
                         </div>
@@ -95,8 +94,8 @@
                     <img class="thumbnail" src="/images/default.png" alt="" srcset="">
                     <div class="post-preview">
                         <h6 class="post-title">RightPrice (Work in Progress)</h6>
-                        <p class="post-intro">A dummy e-commerce website with search, user registration and cart functions. Built using Django, deployed on Heroku. </p>
-                        <a target="_blank" href="wip.html">Visit Website</a>
+                        <p class="post-intro">A dummy e-commerce website with search, user registration, user upload and cart functions. Built using Django, deployed on Heroku. </p>
+                        <a target="_blank" href="https://django-rightprice.herokuapp.com/">Visit Website</a>
                     </div>
                 </div>
                 <div class="post">
@@ -117,9 +116,8 @@
             <div class="about-wrapper">
                 <div class="about-me">
                     <h4>More about me</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>Donec dignissim tellus vitae dignissim mattis. Integer in tortor est.</p>
-
+                    <p>I studied robot simulations, AI, software engineering and machine learning during my education and I'm always eager to learn more.</p>
+                    
                     <div class="social-links">
 
                     </div>
@@ -128,25 +126,38 @@
                     <hr>
 
                     <h4 id="Skills">Languages and Skills</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur. Machine learning and software development. <a
-                            target="_blank" href="resume.pdf">Download my Resume</a></p>
+                    <p>While my primary focus on Python and related technologies, I also work with C and can adapt to similar languages.</p> 
+                    <p><a target="_blank" href="resume.pdf">Download my Resume</a></p>
 
                     <div id="skills">
 
                         <ul>
                             <li>Python</li>
                             <li>Django</li>
-                            
+                            <li>C</li>
                         </ul>
 
                         <ul>
                             <li>HTML/CSS</li>
-                            <li>C</li>
+                            <li>Linux</li>
                         </ul>
                         <ul>
                             <li>Webots <a href="https://cyberbotics.com/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-                            <!--li>Heroku</-li-->
+                            <li>Heroku</li>
                         </ul>
+                    </div>
+
+                    <h4 id="Others">Others</h4>
+                    <div id="skills">
+                        <ul>
+                            <li>Adobe PhotoShop</li>
+                            <li>Adobe Premiere Pro</li>
+                        </ul>
+
+                        <ul>
+                            <li>Basic Japanese (~N5 Level)</li>
+                        </ul>
+
                     </div>
                 </div>
 
@@ -173,18 +184,18 @@
         <div class="main-container">
             <h3 style="text-align: center;">Get in Touch</h3>
 
-            <form id="contact-form">
+            <form id="contact-form" action="https://formsubmit.co/renelbmorales@gmail.com" method="POST">
                 <label for="">Name</label>
-                <input class="input-field" type="text" name="name">
+                <input class="input-field" type="text" name="name" required>
 
                 <label for="">Subject</label>
-                <input class="input-field" type="text" name="subject">
+                <input class="input-field" type="text" name="subject" required>
 
                 <label for="">Email</label>
-                <input class="input-field" type="text" name="email">
+                <input class="input-field" type="text" name="email" required>
 
                 <label for="">Message</label>
-                <textarea class="input-field" type="text" name="message"></textarea>
+                <textarea class="input-field" type="text" name="message" required></textarea>
 
 
                 <input id="submit-btn" type="submit" value="Send">
